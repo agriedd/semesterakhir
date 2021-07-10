@@ -1,62 +1,142 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Mahasiswa Tugas Akhir
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+adalah aplikasi / website yang menampung masalah, kendala, dan keluhan mahasiswa semester akhir
 
-## About Laravel
+# Tujuan 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Aplikasi ini mengumpulkan masalah masalah umum yang dihadapi mahasiswa dalam menyelesaikan tugas akhir / Skripsi mereka, lalu mengkategorikan masalah masalah yang mirip, sehingga diharapkan dengan masalah<sup>2</sup> yang terkumpul ini, _(semoga)_ dapat kita menentukan solusinya.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# Privasi
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Aplikasi ini menyimpan masalah dan keluhana mahasiswa sehingga bisa saja data yang diinputkan adalah sesuatu yang sensitif dan bersifat privasi. sehingga aplikasi ini mengutamakan privasi pengguna, dan keamanan pengguna.
 
-## Learning Laravel
+❌⚠️
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Data yang berada pada _database_ produksi TIDAK BOLEH digunakan untuk kepentingan publik, atau diperjual belikan.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+# Batasan
 
-## Laravel Sponsors
+Batasan pembuatan aplikasi ini adalah:
+sistemnya menggunakan `PHP laravel`@8.^ * dan frontendnya `Vue JS`@2.^ *
+dan database awalnya menggunakan SQL dimana localnya `Mysql` dan productionnya `PostgreSql`
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Untuk sementara hanya menyediakan formulirnya saja
 
-### Premium Partners
+_*) melambangkan versi_
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+# _UserFlow_
 
-## Code of Conduct
+Jadi _user flow_ ini artinya alur yang akan dilalui oleh pengguna baik pengguna umum, pengguna member, dan pengguna admin dan pengembang
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Pengguna
 
-## Security Vulnerabilities
+1. Pengguna dapat mengunjungi halaman awal yang langsung tersedia formulir masalah mahasiswa semester akhir tersebut
+2. Pengguna juga ingin dapat melihat data pengguna yang sudah terkumpul pada aplikasi, dengan begini pengguna akan lebih mempercayai aplikasi
+3. pengguna juga ingin dapat melihat informasi pertanggungjawaban atas data yang diberikan, dengan begitu pengguna akan lebih yakin datanya akan aman
+4. pengguna dapat mengubah atau menghapus data yang pernah diinputnya
+5. pengguna dapat memberikan saran dan masukan terhadap aplikasi
+6. pengguna dapat menginputkan data secara anonim
+7. pengguna ingin mendapatkan solusi atau rekomendasi secara otomatis dari masalahnya, jika masalahnya adalah masalah umum, misalkan sistem merekomendasikan si pengguna atau iklan yang ada pada sistem
+8. pengguna juga dapat melihat kontak penanggung jawab agar dapat menghubungi
+9. Pengguna dapat membuat story
+10. Pengguna dapat menginput formulir secara anonim
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Admin
 
-## License
+1. Admin dapat melihat dan mengelola data yang diinput oleh pengguna
+2. Admin dapat menambah moderator
+3. Admin dapat mengelola kotak saran
+4. Admin dapat dapat login menggunakan google OAuth
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# Developer
+
+## Kontribusi
+
+Kamu juga bisa bergabung dalam pengembangan aplikasi ini:
+
+### Sebelum memulai
+
+dengan memahami SALAH SATU dasar dibawah:
+
+`Git` (agar dapat berkolaborasi dengan repository ini) 
+
+1. `PHP`
+2. `CSS` atau pre-pocessor css `SASS` / `SCSS`
+3. `HTML`
+4. `Javascript`
+5. Konsep `MVC` (_Model_, _View_, _Controller_)
+6. `Laravel`
+7. `Vue`
+8. `Composer` dan Package Manager NodeJs (npm)
+9. Konsep `PBO` (Pemrograman berorientasi objek)
+
+dengan alat dan bahan:
+
+1. Komputer kamu sudah terinstall Composer
+2. Komputer kamu sudah terinstall Git
+3. Komputer kamu sudah terinstall `PHP`@7.3.* dan `Mysql` atau `XAMPP` terbaru <small>_(sejak 10 juli 2021)_</small>
+4. Komputer kamu sudah terinstall `NodeJs` (Opsional, kalau kamu tidak ingin mengubah bagian viewnya atau _frontend_-nya)
+5. Texteditor apa saja
+
+### Memulai
+
+untuk memulai project ini di perangkat atau komputer kamu
+
+1. buka cmd atau command line
+
+tentukan lokasi projectnya akan diletakan:
+dengan perintah:
+
+```cli
+$ cd /lokasi/project/project/kamu
+```
+
+atau jika kamu pengguna windows dan tidak familiar dengan perintah cmd dapat melakukannya dengan cara,
+buka folder project kamu pada bagian address bar explorer ketikan:
+
+```cli
+cmd
+```
+
+2. clone project ini ke perangkat kamu
+
+ketikan perintah ini pada cmd yang sedang terbuka
+
+**copy atau ketik tanpa `$`
+```cli
+$ git clone https://github.com/agriedd/semesterakhir.git semesterakhir
+```
+tunggu sampai prosesnya berakhir (proses ini membutuhkan koneksi internet)
+
+3. masuk kedalam file project pada cmd
+
+ketikan perintah:
+```cli
+$ cd semesterakhir
+```
+
+4. install package php
+```cli
+$ composer install
+```
+5. copy .env.example ke .env
+
+copy berkas `.env.example` dan paste sebagai berkas dengan nama yang berbeda yaitu: `.env`
+
+6. generate key
+```cli
+$ php artisan key:generate
+```
+
+7. storage link
+```cli
+$ php artisan storage:link
+```
+
+8. konfigurasi .env
+
+buka dan ubah file .env
+
+
