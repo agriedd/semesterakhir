@@ -8,7 +8,7 @@ Aplikasi ini mengumpulkan masalah masalah umum yang dihadapi mahasiswa dalam men
 
 # Privasi
 
-Aplikasi ini menyimpan masalah dan keluhana mahasiswa sehingga bisa saja data yang diinputkan adalah sesuatu yang sensitif dan bersifat privasi. sehingga aplikasi ini mengutamakan privasi pengguna, dan keamanan pengguna.
+Aplikasi ini menyimpan masalah dan keluhan mahasiswa sehingga bisa saja data yang diinputkan adalah sesuatu yang sensitif dan bersifat privasi. sehingga aplikasi ini mengutamakan privasi pengguna, dan keamanan pengguna.
 
 ❌⚠️
 
